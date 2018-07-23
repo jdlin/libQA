@@ -68,4 +68,4 @@ mv cell_list $RPT_DIR
 if (-f info.txt) then 
     mv info.txt $RPT_DIR 
 endif 
-echo "end at copy ..."
+echo "end of copy ..."
