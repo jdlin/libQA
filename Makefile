@@ -9,7 +9,7 @@ drc.rpt:
         makedrc.sh < ${input} 
         \rm ${input) 
         cd ..
-        summary.sh 
+        sum.sh 
 ant: antenna.rpt 
 antenna.rpt: 
         mkdir run_ant 
