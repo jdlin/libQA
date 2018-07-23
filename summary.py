@@ -69,3 +69,9 @@ def outputDRC(celllist):
         summary = (r, len(rule[r]), comment[r]) 
         print "RULECHECK %-16s %6s %s" % summary 
         i = i + 1
+        print "Total :", i, "RULECHECK"
+
+if __name__ == '__main__':
+    opts, args = getopt.getopt(sys.argv[1:], "i")
+    filename = args
+    outputDRC(filename)
